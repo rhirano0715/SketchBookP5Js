@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  p5js:
+    container_name: p5js
+    build: .
+    tty: true
+    working_dir: /workspace
+    volumes:
+      - .:/workspace/
