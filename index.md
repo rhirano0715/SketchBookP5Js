@@ -33,3 +33,7 @@
 ### wave
 
 1. [wave](./projects/GeometricalPattern/wave/index.html)
+
+## Random
+
+1. [RandomBlackAndWhiteDots](./projects/Random/RandomBlackAndWhiteDots/index.html)
