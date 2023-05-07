@@ -37,3 +37,4 @@
 ## Random
 
 1. [RandomBlackAndWhiteDots](./projects/Random/RandomBlackAndWhiteDots/index.html)
+1. [RamdomColorDot](./projects/Random/RamdomColorDot/index.html)
