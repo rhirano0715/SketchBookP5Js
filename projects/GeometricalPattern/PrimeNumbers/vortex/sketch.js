@@ -1,10 +1,10 @@
-let n = 100; // 素数を計算する範囲
-let radius = 10; // 素数の半径
+let n = 9999; // 素数を計算する範囲
+let radius = 5; // 素数の半径
 let maxDist; // 素数が配置される最大距離
 let primes = []; // 素数を格納する配列
 
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(500, 500);
     angleMode(DEGREES);
     maxDist = sqrt(sq(width / 2) + sq(height / 2)); // 最大距離を計算する
 
@@ -21,10 +21,11 @@ function setup() {
             primes.push(i);
         }
     }
+
+    background(0, 0, 0);
 }
 
 function draw() {
-    background(220);
     translate(width / 2, height / 2);
 
     // 素数を渦状に描画する
@@ -32,10 +33,10 @@ function draw() {
         let index = primes[i] - 1; // 素数の位置は1から始まるので、-1する
         let angle = map(index, 0, primes.length, 0, 360);
         let dist = map(index, 0, primes.length, 0, maxDist);
-        let x = dist * cos(angle);
-        let y = dist * sin(angle);
+        let x = dist * cos(angle) / 10;
+        let y = dist * sin(angle) / 10;
         noStroke();
-        fill(255, 0, 0);
+        fill(random(i % 255), random(i % 255), random(i % 255));
         ellipse(x, y, radius, radius);
     }
 }
