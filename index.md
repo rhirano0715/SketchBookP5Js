@@ -22,6 +22,7 @@
 
 1. [circle](./projects/GeometricalPattern/PrimeNumbers/circle/index.html)
 1. [vortex](./projects/GeometricalPattern/PrimeNumbers/vortex/index.html)
+1. [vortex white](./projects/GeometricalPattern/PrimeNumbers/vortex_white/index.html)
 
 ### squares
 
