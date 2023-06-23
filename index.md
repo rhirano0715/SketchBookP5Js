@@ -9,6 +9,8 @@
 
 ## geometrical
 
+1. [cloth](./projects/GeometricalPattern/cloth/index.html)
+
 ### fireworks
 
 1. [one](./projects/GeometricalPattern/fireworks/one/index.html)
