@@ -32,6 +32,7 @@
 1. [circle](./projects/GeometricalPattern/squares/circle/index.html)
 1. [infection](./projects/GeometricalPattern/squares/infection/index.html)
 1. [moving](./projects/GeometricalPattern/squares/moving/index.html)
+1. [color square](./projects/GeometricalPattern/squares/color_square/index.html)
 
 ### wave
 
