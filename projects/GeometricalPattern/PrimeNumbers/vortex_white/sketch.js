@@ -40,3 +40,10 @@ function draw() {
         ellipse(x, y, radius, radius);
     }
 }
+
+
+function keyPressed() {
+    if (key === 's') {
+        saveGif('vortex_white.gif', 15); // 1 sec
+    }
+}
