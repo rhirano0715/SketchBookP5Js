@@ -27,6 +27,7 @@
 1. [infection](./projects/GeometricalPattern/squares/infection/index.html)
 1. [moving](./projects/GeometricalPattern/squares/moving/index.html)
 1. [wave](./projects/GeometricalPattern/wave/index.html)
+1. [mandara](./projects/GeometricalPattern/squares/randomMandara/index.html)
 
 ## Random
 
