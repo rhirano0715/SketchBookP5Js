@@ -1,4 +1,4 @@
-var boxes; // 四角形を入れておく配列
+var boxes; // Array to hold the squares
 
 function setup() {
     createCanvas(400, 400);
@@ -8,26 +8,26 @@ function setup() {
 }
 
 function draw() {
-    // 背景色を黒色にする
+    // Set the background color to black
     background(0, 100, 0);
 
-    // 起点となる四角形を用意する
+    // Prepare the initial square
     boxes = [];
     boxes.push(new Box(0, 0, width / 3, 1));
 
-    // 四角形のまわりに四角形を作成する
+    // Create squares around the main square
     let level = 6;
     for (let i = 1; i <= level; i++) {
         createBoxes(i);
     }
 
-    // 四角形を描画する
+    // Draw the squares
     for (let b of boxes) {
         b.show();
     }
 }
 
-// 四角形のまわりに４つの四角形を作成する
+// Create four squares around a square
 function createBoxes(level) {
     let newboxes = boxes.slice();
 
