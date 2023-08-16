@@ -6,7 +6,6 @@ let vxs = [];
 let vys = [];
 
 function setup() {
-    // createCanvas(600, 600);
     createCanvas(1400, 400);
 
     noStroke();
@@ -56,4 +55,10 @@ function draw() {
     }
 
     //   save("result.png");
+}
+
+function keyPressed() {
+    if (key === 's') {
+        saveGif('RandomWalk.gif', 15); // 1 sec
+    }
 }
