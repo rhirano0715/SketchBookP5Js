@@ -1,4 +1,4 @@
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(100, 100);
     line(15, 25, 70, 90);
 }
