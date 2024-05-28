@@ -16,7 +16,7 @@ def main():
         linkpath = re.sub(r"\\", r"/", str(path.relative_to(args.directory_path)))
         html = f'''
         <a href="./projects/{linkpath}" style="position: relative; display: inline-block;">
-            <iframe width=1430 height=430 src="./projects/{linkpath}"></iframe>
+            {linkpath}
         </a>
         <br />
 '''
